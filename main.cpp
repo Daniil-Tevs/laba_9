@@ -10,7 +10,7 @@ int main()
 {
     sf::RenderWindow window(sf::VideoMode(1000, 800), "Laba_9");
     //Первый прямоугольник
-    sf::RectangleShape shape1(sf::Vector2f(120.f, 50.f));
+    sf::RectangleShape shape1(sf::Vector2f(50.f, 50.f));
     shape1.setFillColor(sf::Color::Red);
     float shape1_x0=60,shape1_y0=25;
     shape1.setOrigin(shape1_x0,shape1_y0);
@@ -21,6 +21,7 @@ int main()
     float shape2_x0=120,shape2_y0=50;
     shape2.setOrigin(shape2_x0,shape2_y0);
     float shape2_x=650, shape2_y=180,s2=3;
+
     //Третий прямоугольник
     sf::RectangleShape shape3(sf::Vector2f(70.f, 400.f));
     shape3.setFillColor(sf::Color::Green);
